@@ -1,0 +1,11 @@
+dict={"name":"sindu","name1":"raj","name2":"charan"}
+dict1=dict.copy()
+print(dict1)
+print(dict.get("name"))
+print(dict.items())
+print(dict.keys())
+print(dict.pop("name1"))
+print(dict.popitem())
+print(dict.values())
+dict.update({"name4":"vijay"})
+print(dict)
