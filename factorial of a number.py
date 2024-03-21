@@ -1,5 +1,5 @@
-num = 5
-output = 1
-for i in range(2,num+1):
-  output*=i
-print(output)
+n = int(input("enter the value")) 
+f = 1
+for i in range(2,n+1):
+  f*=i
+print(f)
